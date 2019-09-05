@@ -42,7 +42,7 @@ export default class Card extends Component {
                     </div>
                     <span className="curriculam">curriculam : v1</span>
                     <span className="lp">lesson plan : v1</span>
-                    <span className="pts">plan to show :30</span>
+                    <span className="pts">plantoshow :30</span>
 
                     <div className="zoom">
                     <a href="https://zoom.us/" target="_blank" rel="noopener noreferrer" value="zoom"><button id="mybtn " className="zoombtn">Join Zoom
