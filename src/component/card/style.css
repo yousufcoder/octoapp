@@ -1,13 +1,22 @@
-.cardbody{
+.container{
     position: absolute;
-width: 356px;
-height: 330px;
+width: 340px;
+height: 325px;
 left: 303px;
 top: 81px;
 
 background: #FFFFFF;
 border: 3px solid #DDE0E9;
+/* border-right: 3px solid #334E69 */
 border-radius: 12px;
+}
+.cardbody{
+width: 180px;
+height: 250px;
+top: 0px;
+background: #FFFFFF;
+border: 1px solid #DDE0E9;
+border-right: 3px solid #DDe0e9;
 }
 /* .flex{
     display: flex;
@@ -222,13 +231,13 @@ color: #334E69;
   
 }
 .zoom{
-    font-size:16px;
+    font-size:14px;
 }
 .zoombtn{
     position: absolute;
 width: 120px;
 height: 31px;
-margin-left: 40px;
+margin-left: 33px;
 top: 190px;
 border-radius: 8px;
 background:#87eaf2;
@@ -237,17 +246,17 @@ background:#87eaf2;
     position: absolute;
     width: 20px;
 height: 20px;
-margin-left: 50px;
+margin-left: 35px;
 top: 195px;
 }
-.m{
+/* .m{
     display: column;
     flex-direction: column;
 width: 356px;
 height: 66px;
 left: 298px;
 top: 340px;
-}
+} */
 /* .container{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 500px;
@@ -255,4 +264,5 @@ top: 340px;
     text-align: center;
     font-family: arial;
 } */
+
 

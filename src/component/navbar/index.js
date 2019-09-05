@@ -4,7 +4,7 @@ import './style.css';
 function Navbar() {
     return (
         <div className="topbar">
-            <h3>Admins Dashboard</h3>
+            <h4>Admins Dashboard</h4>
         </div>
     )
 }

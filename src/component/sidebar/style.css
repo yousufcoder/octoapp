@@ -9,10 +9,10 @@ background-color: #334e69;
 
 .filter {
 position: absolute;
-width: 232px;
-height: 335px;
+width: 225px;
+height: 200px;
 left: 13px;
-top: 130px;
+top: 90px;
 
 }
 .filter-text{
@@ -20,7 +20,7 @@ top: 130px;
 font-family: Roboto Condensed;
 font-style: normal;
 font-weight: bold;
-font-size: 16px;
+font-size: 14px;
 line-height: 19px;
 display: flex;
 align-items: center;
@@ -29,16 +29,7 @@ color: #FFFFFF;
 justify-content: center;
 }
 .start-text{
-      /* position: absolute;
-width: 77px;
-height: 19px;
-left: 38px;
-top: 212px; */
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
+font-size: 12px;
 line-height: 10px;
 display: flex;
 align-items: center;
@@ -57,33 +48,31 @@ position: absolute;
 width: 85px;
 height: 19px;
 left: 9px;
-top: 345px;
+top: 335px;
 
-font-family: Roboto;
 font-style: normal;
 font-weight: normal;
-font-size: 15px;
+font-size: 12px;
 line-height: 16px;
 display: flex;
 align-items: center;
-
 color: #FFFFFF;
 }
 .radiov1{
     position: absolute;
-    width: 50px;
+    width: 40px;
     height: 30px;
     left: 105px;
-    top: 340px;
+    top: 330px;
     border-radius: 5px;
 }
 .radiov2{
     
 position: absolute;
-width: 50px;
+width: 40px;
 height: 30px;
 left: 175px;
-top: 340px;
+top: 330px;
 border-radius: 5px;
 background-color: #FFFFFF;
 }
@@ -92,44 +81,38 @@ background-color: #FFFFFF;
 width: 203px;
 height: 30px;
 left: 7px;
-top: 400px;
+top: 380px;
 color: #FFFFFF;
 }
 .lpradiov1{
     position: absolute;
-    width: 50px;
+    width: 40px;
     height: 30px;
-    left: 100px;
-    top: 400px;
+    left: 105px;
+    top: 380px;
     border-radius: 5px;
 }
 .lpradiov2{
     
 position: absolute;
-width: 50px;
+width: 40px;
 height: 30px;
-left: 170px;
-top: 400px;
+left: 175px;
+top: 380px;
 border-radius: 5px;
 background-color: #FFFFFF;
 }
 .sortcontainer{
-/* position: absolute;
-width: 82px;
-height: 21px;
-left: 13px;
-top: 568px; */
-
 position: absolute;
 width: 228px;
 height: 59px;
 left: 13px;
-top: 420px;
+top: 400px;
 
-font-family: Roboto Condensed;
+font-family: Roboto;
 font-style: normal;
 font-weight: bold;
-font-size: 16px;
+font-size: 14px;
 line-height: 19px;
 display: flex;
 align-items: center;
@@ -139,10 +122,10 @@ color: #FFFFFF;
 }
 .sort-id-box{
     position: absolute;
-    width: 70px;
+    width: 50px;
     height: 30px;
     left: 0px;
-    top: 60px;
+    top: 50px;
     
     background: #DAE2ED;
     border: 4px solid #DAE2ED;
@@ -155,8 +138,8 @@ color: #FFFFFF;
     position: absolute;
 width: 80px;
 height: 30px;
-left: 80px;
-top: 60px;
+left: 70px;
+top: 50px;
 
 font-family: Roboto Condensed;
 font-style: normal;
@@ -176,7 +159,7 @@ background-color: #FFFFFF;
 width: 70px;
 height: 30px;
 left: 171px;
-top: 60px;
+top: 50px;
   
 font-family: Roboto ;
 font-style: normal;

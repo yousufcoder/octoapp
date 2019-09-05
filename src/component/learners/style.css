@@ -1,0 +1,42 @@
+.lcontainer{
+    position: relative;
+    width: 155px;
+    height: 250px;
+    margin-left: 182px;
+    background: #FFFFFF;
+    border: 1px solid #DDE0E9;
+    border-bottom: 2px solid #dde0e9; 
+    border-top:3px solid #dde0e9;
+    border-radius: 4px;
+    bottom:321px;
+
+   
+}
+.learnericon{
+    width:20px;
+    height: 20px;
+}
+.ln{
+    display: inline-flex;
+    margin: 10px;
+    color: #334e69;
+    font-size: 14px;
+}
+.user{
+    display: inline-flex;
+    position: relative;
+    margin: 15px;
+    color: #334e69;
+    font-size: 14px;
+    justify-content: center;
+    bottom: 15px;
+}
+.usericon{
+    width: 20px;
+    height: 20px;
+    top:12px;
+}
+.stdnt{
+    margin-left:15px;
+    justify-content: center;
+}

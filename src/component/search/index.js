@@ -7,7 +7,7 @@ class Search extends Component {
         return (
             <div>
                 <div>
-                    <input type="text" className="search-box" placeholder="search"/>                
+                    <input type="text" className="search-box" placeholder="search..."/>                
                     <img src={search} className="search-logo" alt=" "/>
                 </div>
             </div>

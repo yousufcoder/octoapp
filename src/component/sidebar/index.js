@@ -7,8 +7,7 @@ import './style.css';
         return (
             <div className="sidebar">
                 
-                
-                <div className="filter">
+                 <div className="filter">
                     <h3 className="filter-text">FILTER</h3>
                     <div>
                     <h5 className="start-text">Start Date:</h5>

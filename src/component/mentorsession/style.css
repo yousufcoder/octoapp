@@ -1,31 +1,30 @@
-/* .mentor{
+
+.mentorcontainer {
     display: flex;
-    flex-direction: column;
-    width: 301px;
-height: 66px;
-left: 353px;
-top: 340px;
-} */
-.flex-container {
-    display: flex;
-    height: 1px;
+    width:338px;
+    height: 70px;
     flex-direction: row;
     flex-wrap: nowrap;
     background-color: #ffffff;
     border: 1px solid #DAE2ED;
-    box-sizing: border-box;
+    border-radius: 5px;
+    border-top:2px solid #DAE2ED;
 }
 
- 
-      
-  
+  .m{
+    display: column;
+    flex-direction: column;
+    width: 356px;
+    height: 66px;
+    left: 298px;
+    top: 340px;
+  }
   .cal{
     position: absolute;
     width: 60px;
     height: 10px;
     left: 10px;
     top: 290px;
-    
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -34,52 +33,25 @@ top: 340px;
     display: flex;
     align-items: center;
     text-align: center;
-    
     color: #486581;
-    
     border-radius: 8px;
   }
   .sessiondate{
-        display: flex;
-        flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 70px;
   }
-      .sessiondate > div {
-        width: 30px;
-        height: 30px;
-        margin: 10px;
-        margin-left: 70px;
-        font-size: 14px;
-      }
-      .sessiondate > div {
-        width: 30px;
-        height: 30px;
-        margin: 10px;
-        margin-left: 70px;
-        font-size: 14px;
-      }
-      .f{
-    width: 90px;
-    height: 30px;
-    margin-left: 200px;
-    top: 390px;
-    background: #FFFFFF;
-    border: 2px solid #DAE2ED;
+  .sessiondate > div {
+    width: 45px;
+    height: 25px;
+    margin: 4px;
+        /* margin-left: 70px; */
+    font-size: 14px;
+    border: 3px solid #DAE2ED;
     box-sizing: border-box;
+    text-align:center;
     border-radius: 5px;
-    text-align: center;
-    margin-right: 0px;
       }
-      .f1{
-        width: 90px;
-        height: 30px;
-        margin-left: 120px;
-        top: 390px;
-        background: #FFFFFF;
-        border: 2px solid #DAE2ED;
-        box-sizing: border-box;
-        border-radius: 5px;
-        text-align: center;
-        margin-right: 120px;
-          }
-
+      
+     
       

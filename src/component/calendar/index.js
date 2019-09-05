@@ -1,29 +1,3 @@
-// import React, { Component } from 'react'
-// import moment from 'moment';
-// import calendar from 'react-calendar';
-
-// let weekdayshort=moment.weekdayshort();
-
-
-// export default class Calendar extends Component {
-//     render() {
-    
-//         return(
-//              weekdayshortname= this.weekdayshort.map(day=>{
-//                 // <div>
-//                 //     <h2>calendar</h2>
-//                 // </div>
-//                 <div>
-//                 <th key={day} className="week-day">
-//                     {day}
-//                 </th>
-//                 </div>
-        
-//         })
-//         );
-       
-//     }
-// }
 import React from "react";
 import moment from "moment";
 import "./style.css";
@@ -92,7 +66,7 @@ import "./style.css";
     let cells = [];
 
     months.forEach((row, i) => {
-      if (i % 3 !== 0 || i == 0) {
+      if (i % 3 !== 0 || i === 0) {
         cells.push(row);
       } else {
         rows.push(cells);
@@ -161,7 +135,6 @@ import "./style.css";
   getDates(startDate, stopDate) {
     var dateArray = [];
     var currentDate = moment(startDate);
-    var stopDate = moment(stopDate);
     while (currentDate <= stopDate) {
       dateArray.push(moment(currentDate).format("YYYY"));
       currentDate = moment(currentDate).add(1, "year");
