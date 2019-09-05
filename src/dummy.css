@@ -1,0 +1,348 @@
+.admin dashboard{
+    position: relative;
+width: 1440px;
+height: 900px;
+
+background: #F0F3F8;
+}
+sidebar{
+    /* side bar */
+
+
+position: absolute;
+width: 280px;
+height: 900px;
+left: 0px;
+top: 0px;
+
+}
+.search box {
+    /* search box */
+
+
+position: absolute;
+width: 246px;
+height: 52.12px;
+left: 13px;
+top: 81px;
+}
+.search box text {
+    
+position: absolute;
+width: 102px;
+height: 52px;
+left: 13px;
+top: 81px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #334E69;
+}
+.search logo {
+   
+
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 235px;
+top: 97px;
+
+background: url(search--v1.2.png);
+}
+.search box container{
+/* search box container */
+
+
+position: absolute;
+width: 243px;
+height: 52.12px;
+left: 16px;
+top: 81px;
+
+background: #FFFFFF;
+border: 3px solid #DDE0E9;
+border-radius: 12px;
+}
+.filer container{
+    /* filter section */
+
+
+position: absolute;
+width: 232px;
+height: 335px;
+left: 13px;
+top: 183px;
+}
+filter text{
+    
+position: absolute;
+width: 82px;
+height: 21px;
+left: 13px;
+top: 183px;
+
+font-family: Roboto Condensed;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+start date {
+    /* start date */
+
+
+position: absolute;
+width: 207px;
+height: 230px;
+left: 38px;
+top: 206px;
+}
+start date text{
+position: absolute;
+width: 77px;
+height: 19px;
+left: 38px;
+top: 212px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+calendar container{
+    position: absolute;
+width: 203px;
+height: 196px;
+left: 38px;
+top: 240px;
+}
+curriculam container{
+    /* curriculam */
+
+
+position: absolute;
+width: 203px;
+height: 30px;
+left: 38px;
+top: 450px;
+}
+curriculam text{
+    /* curriculam : */
+
+
+position: absolute;
+width: 85px;
+height: 19px;
+left: 38px;
+top: 455px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+}
+curriculam radio button v1{
+
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    left: 132px;
+    top: 450px;
+}
+curriculam radion button v2{
+/* curr radio */
+
+
+position: absolute;
+width: 50px;
+height: 30px;
+left: 191px;
+top: 450px;
+}
+lesson plan{
+    position: absolute;
+width: 203px;
+height: 30px;
+left: 38px;
+top: 488px;
+
+}
+lesson plan text{
+    position: absolute;
+width: 85px;
+height: 19px;
+left: 38px;
+top: 493px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+}
+.lesson  plan v1{
+    position: absolute;
+width: 50px;
+height: 30px;
+left: 132px;
+top: 488px;
+}
+.lesson plan v2 {
+ 
+
+
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    left: 191px;
+    top: 488px;  
+}
+sort container{
+    /* sort section */
+
+
+position: absolute;
+width: 228px;
+height: 59px;
+left: 13px;
+top: 568px;
+
+}
+.sort text{
+    /* SORT */
+
+
+position: absolute;
+width: 82px;
+height: 21px;
+left: 13px;
+top: 568px;
+
+font-family: Roboto Condensed;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+}
+sort id box{
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    left: 38px;
+    top: 597px;
+    
+    background: #DAE2ED;
+    border: 4px solid #DAE2ED;
+    box-sizing: border-box;
+    border-radius: 5px;    
+}
+batch start date box{
+    /* batch start date cont. */
+
+
+position: absolute;
+width: 70px;
+height: 30px;
+left: 95px;
+top: 597px;
+
+background: #FFFFFF;
+border: 4px solid #DAE2ED;
+box-sizing: border-box;
+border-radius: 5px;
+}
+batch start date text{
+    /* start date */
+
+
+position: absolute;
+width: 70px;
+height: 30px;
+left: 95px;
+top: 597px;
+
+font-family: Roboto Condensed;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #334E69;
+}
+batch start time container{
+    position: absolute;
+width: 70px;
+height: 30px;
+left: 171px;
+top: 597px;
+}
+batch start time text{
+    
+font-family: Roboto Condensed;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #334E69;
+
+}
+batch start time border{
+    background: #FFFFFF;
+    border: 4px solid #DAE2ED;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+nav bar{
+    /* top bar */
+
+
+position: absolute;
+width: 1440px;
+height: 40px;
+left: 0px;
+top: 0px;
+
+background: #334E69;
+}
+

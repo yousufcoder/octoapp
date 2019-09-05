@@ -1,0 +1,13 @@
+.topbar {
+    position: absolute;
+width: 1520px;
+height: 50px;
+left: 0px;
+top: 0px;
+
+background: #334E69;
+}
+.topbar h3{
+    text-align: center;
+    color: antiquewhite;
+}

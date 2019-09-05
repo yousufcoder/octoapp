@@ -1,0 +1,65 @@
+/* .mentor{
+    display: flex;
+    flex-direction: column;
+    width: 301px;
+height: 66px;
+left: 353px;
+top: 340px;
+} */
+.flex-container {
+    display: flex;
+    height: 1px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #ffffff;
+    border: 1px solid #DAE2ED;
+    box-sizing: border-box;
+}
+
+ 
+      
+  
+  .cal{
+    position: absolute;
+    width: 60px;
+    height: 10px;
+    left: 10px;
+    top: 290px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #486581;
+    
+    border-radius: 8px;
+  }
+  .sessiondate{
+        display: flex;
+        flex-wrap: wrap;
+  }
+      .sessiondate > div {
+        width: 30px;
+        height: 30px;
+        margin: 10px;
+        margin-left: 70px;
+        font-size: 14px;
+      }
+      .f{
+    width: 90px;
+    height: 30px;
+    margin-left: 200px;
+    top: 390px;
+    background: #FFFFFF;
+    border: 2px solid #DAE2ED;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 0px;
+      }
+      
