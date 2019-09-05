@@ -50,6 +50,13 @@ top: 340px;
         margin-left: 70px;
         font-size: 14px;
       }
+      .sessiondate > div {
+        width: 30px;
+        height: 30px;
+        margin: 10px;
+        margin-left: 70px;
+        font-size: 14px;
+      }
       .f{
     width: 90px;
     height: 30px;
@@ -62,4 +69,17 @@ top: 340px;
     text-align: center;
     margin-right: 0px;
       }
+      .f1{
+        width: 90px;
+        height: 30px;
+        margin-left: 120px;
+        top: 390px;
+        background: #FFFFFF;
+        border: 2px solid #DAE2ED;
+        box-sizing: border-box;
+        border-radius: 5px;
+        text-align: center;
+        margin-right: 120px;
+          }
+
       

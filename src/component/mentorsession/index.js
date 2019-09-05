@@ -11,8 +11,7 @@ class Mentorsession extends Component {
                     </div>
                     <div className="sessiondate">
                     <div className="f">6</div>
-                    <div className="f">7</div>
-                    <div className="f">8</div>
+               
              
                     </div>
                 

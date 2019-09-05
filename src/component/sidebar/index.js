@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import search from '../search.png'
+import plus from './plus.png'
 import './style.css';
 
  class Sidebar extends Component {
@@ -30,6 +30,12 @@ import './style.css';
                         <button id="btn" className="sort-date-box">start date</button> 
                         <button id="btn" className="sort-time-box">stat time</button> 
 
+                    </div>
+                    <div className="addbatch">
+                        
+                        <button id="btn" className="add">
+                        <img  className="plusicon" src={plus} alt="plus"/>
+                            AddBatch</button>
                     </div>
                     
 
