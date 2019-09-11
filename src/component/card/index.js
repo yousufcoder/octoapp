@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import nameicon from './nameicon.png';
 import startdate from './startdate.png';
 import timer from './timer.png'
@@ -7,31 +7,23 @@ import zoom from './zoom.png'
 import './style.css';
 import Mentorsession from '../mentorsession/index.js'
 import Learner from '../learners';
-
-// const data=[
-//     {
-//         batch :32,
-//         batchname:"neetika kapur",
-//         startdate:06-june-2019
+// import Data from './component/data.js'
+// import CardList from './cardlist/index.js'
 
 
-//     }
-// ]
-
-export default class Card extends Component {
-    render() {
+const Card =()=>{  
         return (
             <div className="container">
             <div className="cardbody">
-               
+            <div>
+                    <span className="id">Batch id</span>
+                    <span className="idnumber">#32</span>
+                </div>               
                 <div>
                     <img src={nameicon} className="nameicon" alt=""/>
                     <span className="text">neetika kapur</span>
                 </div>
-                <div>
-                    <span className="id">Batch id</span>
-                    <span className="idnumber">#32</span>
-                </div>
+                
                     <div>
                     <img src={startdate}className="startdateicon" alt=""/>
                     <span className="date">06-june-2019</span>
@@ -56,4 +48,5 @@ export default class Card extends Component {
             </div>
         )
     }
-}
+
+export default Card;

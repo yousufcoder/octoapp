@@ -3,12 +3,40 @@ import search from './search .png'
 import './style.css'
 
 class Search extends Component {
+    constructor(props){
+        super(props);
+        this.state={
+            search:" "
+        };
+        
+    }
+        handleChange=(event)=>{
+            this.setState({
+                search:event.target.value
+            });
+        }    
+        componentDidMount(){
+            fetch('http://13.233.54.232/dash_back/prod/demoBatches')
+            .then((response)=>{
+                console.log(response);
+                this.setState({search:search})
+            })
+            .catch((error)=>{
+                console.log(error);
+            })
+        }
+    
     render() {
         return (
             <div>
                 <div>
-                    <input type="text" className="search-box" placeholder="search..."/>                
-                    <img src={search} className="search-logo" alt=" "/>
+                    <input type="text" className="search-box" placeholder="search..." onChange={this.handleChange}/>  
+                    
+                    <a href=" ">
+                    <img src={search} className="search-logo" alt="search "  />
+                    </a>
+                                
+                    
                 </div>
             </div>
         )
